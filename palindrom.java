@@ -2,7 +2,7 @@ public class PalindromeString
 {    
     public static void main(String[] args) {    
         String string = "Kayak";    
-        boolean flag = true;    
+        boolean flag = false;    
             
         //Converts the given string into lowercase    
         string = string.toLowerCase();    
