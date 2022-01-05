@@ -11,7 +11,7 @@ public class PalindromeString
         //till middle of the string is reached    
         for(int i = 0; i < string.length()/2; i++){    
             if(string.charAt(i) != string.charAt(string.length()-i-1)){    
-                flag = false;    
+                flag = true;    
                 break;    
             }    
         }    
